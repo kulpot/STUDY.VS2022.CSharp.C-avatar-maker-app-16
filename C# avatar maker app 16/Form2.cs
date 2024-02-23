@@ -1,4 +1,5 @@
-﻿using C__avatar_maker_app_12;
+﻿using C__heromaker_10;
+using C__avatar_maker_app_12;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -43,6 +44,15 @@ namespace C__avatar_maker_app_13
             bs.ResetBindings(false);
         }
         //-----END------- C# avatar maker app 15 sort a list of objects tutorial -----------------------------------------
+
+        //-----START--------- C# avatar maker app 16 delete a list and reset ---------------------------------------------
+        private void btn_delete_Click(object sender, EventArgs e)
+        {
+            HeroList.hallOfFame.Remove((Hero)listBox1.SelectedItem);
+            bs.ResetBindings(false);
+
+        }
+        //-----END--------- C# avatar maker app 16 delete a list and reset ---------------------------------------------
 
     }
 }
