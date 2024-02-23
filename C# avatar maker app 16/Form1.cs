@@ -76,6 +76,11 @@ using System.Windows.Forms;
 
 // edit Form2.cs Button(name:A->Z/designName:btn_sortAZ),Button(Z->A/btn_sortZA),Add method to(button:A->Z/Z->A),
 
+//---------------- C# avatar maker app 16 delete a list and reset ---------------------------------------------
+//ref link:https://www.youtube.com/watch?v=GGedi6Cme6s&list=PLhPyEFL5u-i2w2fa7ErcbkbEkjqLh7Io1&index=3&t=49s
+
+//
+
 namespace HeroMaker
 {
     public partial class Form1 : Form
