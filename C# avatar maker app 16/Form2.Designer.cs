@@ -32,7 +32,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btn_sortAZ = new System.Windows.Forms.Button();
             this.btn_sortZA = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btn_delete = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listBox1
@@ -71,21 +71,21 @@
             this.btn_sortZA.UseVisualStyleBackColor = true;
             this.btn_sortZA.Click += new System.EventHandler(this.btn_sortZA_Click);
             // 
-            // button3
+            // btn_delete
             // 
-            this.button3.Location = new System.Drawing.Point(492, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btn_delete.Location = new System.Drawing.Point(492, 12);
+            this.btn_delete.Name = "btn_delete";
+            this.btn_delete.Size = new System.Drawing.Size(75, 23);
+            this.btn_delete.TabIndex = 4;
+            this.btn_delete.Text = "Delete";
+            this.btn_delete.UseVisualStyleBackColor = true;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btn_delete);
             this.Controls.Add(this.btn_sortZA);
             this.Controls.Add(this.btn_sortAZ);
             this.Controls.Add(this.textBox1);
@@ -103,6 +103,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button btn_sortAZ;
         private System.Windows.Forms.Button btn_sortZA;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btn_delete;
     }
 }

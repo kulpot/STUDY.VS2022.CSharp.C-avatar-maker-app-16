@@ -79,7 +79,7 @@ using System.Windows.Forms;
 //---------------- C# avatar maker app 16 delete a list and reset ---------------------------------------------
 //ref link:https://www.youtube.com/watch?v=GGedi6Cme6s&list=PLhPyEFL5u-i2w2fa7ErcbkbEkjqLh7Io1&index=3&t=49s
 
-//
+// edit Form2.cs button(text:Delete/name:btn_delete),
 
 namespace HeroMaker
 {
