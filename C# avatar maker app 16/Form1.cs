@@ -79,7 +79,7 @@ using System.Windows.Forms;
 //---------------- C# avatar maker app 16 delete a list and reset ---------------------------------------------
 //ref link:https://www.youtube.com/watch?v=GGedi6Cme6s&list=PLhPyEFL5u-i2w2fa7ErcbkbEkjqLh7Io1&index=3&t=49s
 
-// edit Form2.cs button(text:Delete/name:btn_delete)(ClickEvent),
+// edit Form2.cs button(text:Delete/name:btn_delete)(ClickEvent), edit Form1.cs->Add:button(text:Reset Form/name:btn_reset),
 
 namespace HeroMaker
 {
@@ -326,6 +326,18 @@ namespace HeroMaker
             }
         }
         //-----END------ C# heromaker part 09 Picturebox control Visual Studio -------------------------------
+
+        //-----START--------- C# avatar maker app 16 delete a list and reset ---------------------------------------------
+        private void btn_reset_Click(object sender, EventArgs e)
+        {
+            Form1 NewForm = new Form1();
+            NewForm.StartPosition = FormStartPosition.Manual;
+            NewForm.Location = this.Location;
+
+            NewForm.Show();
+            this.Dispose(false);
+        }
+        //------END-------- C# avatar maker app 16 delete a list and reset ---------------------------------------------
 
 
         //------END---------- C# avatar maker app 01 How to use checkboxes tutorial -----------------------------
