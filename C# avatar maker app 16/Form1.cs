@@ -335,7 +335,14 @@ namespace HeroMaker
             NewForm.Location = this.Location;
 
             NewForm.Show();
+
+            // Do now allow form to be displayed in taskbar.
+            NewForm.ShowInTaskbar = false;
+
             this.Dispose(false);
+
+            
+            
         }
         //------END-------- C# avatar maker app 16 delete a list and reset ---------------------------------------------
 
