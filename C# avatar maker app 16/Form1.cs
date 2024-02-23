@@ -330,7 +330,7 @@ namespace HeroMaker
         //-----START--------- C# avatar maker app 16 delete a list and reset ---------------------------------------------
         private void btn_reset_Click(object sender, EventArgs e)
         {
-            Form1 NewForm = new Form1();
+            Form1 NewForm = new Form1();                    // ErrorSolution: Delete bin folder for debug file copy error!!!!
             NewForm.StartPosition = FormStartPosition.Manual;
             NewForm.Location = this.Location;
 
